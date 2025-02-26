@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Lato';
+  src: url("../src/assets/font/Lato-Regular.ttf") 
+}
+
 :root {
   /* Color Palette */
   --primary-color: #1fa0bd; /* we will use it for primary buttons and links */
