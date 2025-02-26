@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import LandingNavbar from './Components/LandingPage/LandingNavbar/LandingNavbar'
+import LandingNavbar from './components/LandingPage/LandingNavbar/LandingNavbar'
 
 
 import styles from './App.module.css'

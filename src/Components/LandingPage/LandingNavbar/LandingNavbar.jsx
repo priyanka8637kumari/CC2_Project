@@ -17,7 +17,7 @@ const Navbar = () => {
     </ul>
     <button className={styles.supportButton}>
       <img src={phoneIcon} alt="Phone Icon" className={styles.phoneIcon} />
-      Emergency Call
+      Support
     </button>
   </nav>
   );
