@@ -1,0 +1,82 @@
+.header {
+    position: fixed; 
+    top: 0;
+    left: 300px;  
+    width: calc(100% - 300px); 
+    height: 8rem;  
+    background: #ffffff;  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000; 
+  }
+  
+  .welcome {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:1rem;
+
+    h3{
+        letter-spacing: 0.8px;
+    }
+
+    h5{
+        text-align: end;
+    }
+  }
+  
+  .rightSection {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .emergencyBtn {
+    background: none;
+    color: #e74c3c;
+    padding: 8px 15px;
+    border: 1px solid #e74c3c;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .emergencyBtn:hover {
+    background: #e74c3c;
+    color:white;
+  }
+  
+
+  .languageDropdown {
+    border: none;
+    background: var(--primary-color);
+    color:white;
+    
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+
+  .iconContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .iconWrapper{
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:1rem;
+  }
+  
+
+  .iconWrapperWithBorder {
+    border-right: 1px solid black;
+  }
