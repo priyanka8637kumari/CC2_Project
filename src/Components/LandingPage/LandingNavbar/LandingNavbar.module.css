@@ -26,6 +26,7 @@
     padding: 0;
     margin: 0;
     display: flex;
+    gap: 20px;
   }
   
   .navbarItem {
@@ -34,7 +35,7 @@
   
   .navbarItem a {
     text-decoration: none;
-    color: #778899; 
+    color: #7A7289; 
     font-weight: normal;
   }
   

@@ -1,14 +1,14 @@
 import React from "react";
 import styles from "./LandingNavbar.module.css";
-import logo from "../images/image 21.png";
-import phoneIcon from "../images/phone.png";
+import logo from "../../../assets/landingPage/logo.png"; 
+import phoneIcon from "../../../assets/landingPage/phone.png";
 
 const Navbar = () => {
   return (
     <nav className={styles.navbar}>
     <div className={styles.navbarBrand}>
       <img src={logo} alt="Care Sync Logo" className={styles.logo} />
-      <span className={styles.brandName}>Care Sync</span>
+      <span className={styles.brandName}>MediHub</span>
     </div>
     <ul className={styles.navbarMenu}>
       <li className={styles.navbarItem}><a href="/">Home</a></li>
