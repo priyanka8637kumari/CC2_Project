@@ -1,16 +1,18 @@
+import { useState } from 'react'
+import LandingNavbar from './components/LandingPage/LandingNavbar/LandingNavbar'
 
 
-import './App.css'
-// import HeaderDoctor from './components/HeaderDoctor/HeaderDoctor'
-// import SideNavDoc from './components/SideNavDoctor/SideNavDoc'
+import styles from './App.module.css'
 
 function App() {
-  // const [count, setCount] = useState(0)
+  
 
   return (
     <>
-    {/* <HeaderDoctor />
-    <SideNavDoc /> */}
+     <div className={styles.App}>
+      <LandingNavbar />
+
+     </div>
     </>
   )
 }
