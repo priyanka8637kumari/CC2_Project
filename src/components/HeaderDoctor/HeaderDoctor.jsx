@@ -15,12 +15,7 @@ const HeaderDoctor = () => {
         <div className={styles.welcomeImage}>
           <img src={doctorImg} alt="Doctor img" className={styles.doctorImg} />
         </div>
-      </div>
-
-      <div className={styles.iconContainer}>
-        {/* <div className={styles.iconWrapper}>
-          <img src={doctorImg} alt="Doctor img" className={styles.doctorImg} />
-        </div> */}
+        <div className={styles.iconContainer}>
         <div className={`${styles.iconWrapper} ${styles.iconWrapperWithBorder}`}>
           <img src={arrowIcon} alt="Arrow icon" />
         </div>
@@ -28,9 +23,13 @@ const HeaderDoctor = () => {
           <img src={bellIcon} alt="Bell icon" />
         </div>
       </div>
+      </div>
+
+
       <div className={styles.rightSection}>
         <select className={styles.languageDropdown}>
-          <option>English</option>
+        <option>English
+          </option>
           <option>Swedish</option>
           <option>Korean</option>
           <option>Hindi</option>
